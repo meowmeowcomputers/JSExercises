@@ -387,3 +387,16 @@ arr.sort(function(x,y) {
 );
 
 //3 times
+
+function call3Times(fun) {
+  fun();
+  fun();
+  fun();
+}
+
+call3Times(function(){ console.log('Hello')})
+
+// Acronym
+
+acro1 = ['very', 'important', 'person'];
+acro2 = ['national', 'aeronautics', 'space', 'administration'];
